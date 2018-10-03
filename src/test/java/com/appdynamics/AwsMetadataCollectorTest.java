@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
-public class AWSMetadataCollectorTest {
+public class AwsMetadataCollectorTest {
 
     public static final String AWS_METADATA = "{  \"devpayProductCodes\" : null,  \"marketplaceProductCodes\" : null,  \"privateIp\" : \"172.31.6.226\",  \"version\" : \"2017-09-30\",  \"instanceId\" : \"i-0a3da0048f5c16ff5\",  \"billingProducts\" : null,  \"instanceType\" : \"t2.xlarge\",  \"imageId\" : \"ami-5e8bb23b\",  \"availabilityZone\" : \"us-east-2a\",  \"kernelId\" : null,  \"ramdiskId\" : null,  \"accountId\" : \"975944588697\",  \"architecture\" : \"x86_64\",  \"pendingTime\" : \"2018-08-08T14:12:24Z\",  \"region\" : \"us-east-2\"}";
 
